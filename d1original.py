@@ -106,7 +106,7 @@ print("neg_acc", neg_correct/neg_cnt*100, "%")
 
 
 
-
+'''
 df = pd.read_csv('COVID-Turkey.csv')
 df=df.dropna(axis=0,how='any')
 df['text'] = df['text'].apply(lambda x: x.lower())
@@ -178,4 +178,4 @@ plt.title('positive and negative tweets about COVID in Turkey ')
 # Show graphic
 plt.show()
 
-
+'''

@@ -3,5 +3,5 @@
 
 
 ## For detailed explanation check:
-demo-scrapper.ipynb file (tweet scrapping)
+demo-scrapper.ipynb file (tweet scrapping) and 
 LSTM-SentimentAnalysis.ipynb file (lstm model)

@@ -5,7 +5,7 @@
 tweepy (http://docs.tweepy.org/en/latest/)
 
 
-## For detailed explanation check:
+## For a brief explanation check:
 demo-scrapper.ipynb file (tweet scrapping) and 
 LSTM-SentimentAnalysis.ipynb file (lstm model)
 

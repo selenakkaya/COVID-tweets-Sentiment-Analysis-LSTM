@@ -1,5 +1,5 @@
 # COVID tweets Sentiment Analysis LSTM
- COVID tweets Sentiment Analysis on LSTM model trained with sentiment140 dataset 
+ COVID tweets Sentiment Analysis on LSTM model trained with sentiment140 dataset (https://www.kaggle.com/kazanova/sentiment140)
 
 
 ## For detailed explanation check:

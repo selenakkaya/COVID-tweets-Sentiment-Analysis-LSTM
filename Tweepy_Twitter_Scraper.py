@@ -25,15 +25,13 @@ api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 #We begin searching our query
 #Put your search term
-searchquery = "trump economy"
+searchquery = "covid"
 
 users =tweepy.Cursor(api.search,q=searchquery).items()
 count = 0
 start = 0
 errorCount=0
 
-#We will be storing our data in file called: happy.json
-#file = open('test.json', 'wb') 
 
 #here we tell the program how fast to search 
 waitquery = 100      #this is the number of searches it will do before resting
@@ -46,8 +44,10 @@ justincase = 1         #this is the number of minutes to wait just in case twitt
 text = [0] * total_number
 secondcount = 0
 idvalues = [1] * total_number
- #1 is happy; 2 is sad; 3 is angry; 4 is fearful
-#Below is where the magic happens and the queries are being made according to our desires above
+
+
+
+
 while secondcount < total_number:
     try:
         user = next(users)
@@ -92,6 +92,6 @@ print("Creating dataframe:")
 d = {"text": text, "id": idvalues}
 df = pd.DataFrame(data = d)
 
-df.to_csv('lalala.csv', header=True, index=False, encoding='utf-8')
+df.to_csv('seniorproject.csv', header=True, index=False, encoding='utf-8')
 
 print ("completed")

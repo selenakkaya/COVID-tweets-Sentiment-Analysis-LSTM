@@ -27,3 +27,32 @@ Tweets were getting from Twitter using some keywords to create a positive and ne
 Finally, it was decided to use sentiment 140 data from Kaggle for the train operation. This was chosen because it is the most popular data set on the Internet. It was seen that most of the studies performed before this project were analyzed using this data set.
 
 Sentiment 140 data set contains 1,600,000 tweets. This dataset was reached using twitter API. The tweets have been categorized as negative and positive. It is suitable for sentiment analysis. It was prepared using many emotional tweets.
+
+
+
+
+
+# Getting Tweets with Using Tweepy for Test Data Set
+
+As a first step, it was necessary to create a data set to test the algorithm. Tweets were reached using Tweepy. Tweepy is a Python library for accessing the Twitter API [10]. It ensures to achieve rich and real-time tweet data. OAuth that is an open authorization protocol to authenticate requests is used for Twitter API. To reach the Twitter API, creating and configuring authentication information is obligatory.
+
+First of all, opening a Twitter account and creating a developer account is needed. After that, many questions are asked in the manner as what work will be done with Twitter API or Twitter data. There are separate questions for students and about their projects, and particular questions for those who want to work in different categories. Information is collected about what is intended to be done in detail. Within a period of time, information is checked, and authentication details are given. After that, the application is created and explained in detail in what is desired to be done. API keys and access tokens are accessed. In this way, it is now possible to take tweets.
+
+COVID-19 was chosen as the subject of the tweet due to that analyzing for a current event was aimed. Country-based corona tweets were taken, as people from different countries are more negative or more positive because of the rate of disease increasing or decreasing in their countries, and comparing general negativity and positivity for the countries.
+
+Tweets about a country are wanted to be accessed by typing that country and corona, 1500 tweets with these words are taken. Topics used in this project are;
+
+- Corona and Italy
+
+- Corona and Europe
+
+- Corona and Turkey
+
+- Corona and UK
+
+- Corona and USA
+
+Tweets posted on June 1, 2020 were taken.
+
+
+
